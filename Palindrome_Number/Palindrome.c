@@ -11,7 +11,6 @@ int main()
         res = res * 10 + tmp;
         n = n / 10;
     }
-
     if(res == input) printf("True ");
     else printf("False ");
 }
